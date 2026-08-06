@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-
-int fatorial(int n);
+#include "function_fatorial.c"
 
 int main(void) {
     assert(fatorial(0) == 1);
