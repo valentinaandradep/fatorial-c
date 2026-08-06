@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: compilar o programa principal
-        run: gcc fatorial.c function_fatorial.c -o fatorial
+        run: gcc fatorial.c -o fatorial
 
       - name: executar o programa principal
         run: ./fatorial 6
@@ -18,7 +18,7 @@ jobs:
         run: cat fatorial.txt
 
       - name: compilar o arquivo de teste
-        run: gcc test_fatorial.c function_fatorial.c -o test_fatorial
+        run: gcc test_fatorial.c -o test_fatorial
 
       - name: executar o arquivo de teste
         run: ./test_fatorial
