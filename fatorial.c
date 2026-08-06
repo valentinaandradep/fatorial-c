@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-int fatorial(int n);
+#include "function_fatorial.c"
 
 int main(int argc, char *argv[]) {
     int n;
